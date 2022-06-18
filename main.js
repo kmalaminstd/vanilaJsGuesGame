@@ -25,7 +25,7 @@ subBtn.addEventListener('click', function(e){
 
     if(guesNum > 5 || guesNum < 1){
 
-        alert('Please select a number between');
+        alert('Please select a number between 1 to 5');
 
     }else{
 
@@ -38,6 +38,10 @@ subBtn.addEventListener('click', function(e){
             subBtn.setAttribute('disabled','disabled');
             subBtn.style.backgroundColor = 'lightblue';
             subBtn.style.cursor = 'no-drop';
+
+            // subBtn.style.display = "block";
+
+            refresBtn.style.display = "block";
         }
 
         leftChance = totalChances - chances;

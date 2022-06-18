@@ -59,6 +59,11 @@ main .userInput{
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+    margin-top: 10px;
+}
+
+.refBtn{
+    display: none;
 }
 
 main .gameOutput{
