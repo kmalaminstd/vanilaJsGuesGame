@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Guessing Game</title>
+</head>
+<body>
+
+    <main>
+        <div class="userInput">
+            <div class="gameBox">
+                <h1>Guessing Game</h1>
+                <p>Choose Number between 1 to 5</p>
+                <p>You will get 5 chances</p>
+                <p style="font-weight: bold;"> <span class="leftChance">5</span> chances left</p>
+                <div class="inputBox">
+                    <input type="number">
+                    <input type="submit"><br><br>
+                    <button class="refBtn">Try Again</button>
+                </div>
+            </div>
+            
+        </div>
+    
+        <div class="gameOutput">
+            <div class="gameResult">
+                <h3>Game Result</h3>
+                
+                <p class="gameText"></p>
+                <!-- <p class="wonText">You won.</p> -->
+            </div>
+
+            <div class="scoreBox">
+                <p class="closeBtn">Close</p>
+                <h3>Your Final Score</h3>
+                <p>Win : <span class="winTime">0</span></p>
+                <p>Lost : <span class="lostTime">0</span></p>
+               <h4></h4>
+            </div>
+            
+        </div>
+
+        
+    </main>
+    
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
